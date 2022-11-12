@@ -23,8 +23,17 @@ class Login extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    if (this.state.email === "admin@gmail.com" && this.state.password === "123456" && this.state.checkbox === true) {
-      alert("Los datos son correctos muchas gracias" + this.state.email + this.state.password + this.state.checkbox);
+    if (
+      this.state.email === "admin@gmail.com" &&
+      this.state.password === "123456" &&
+      this.state.checkbox === true
+    ) {
+      alert(
+        "Los datos son correctos muchas gracias" +
+          this.state.email +
+          this.state.password +
+          this.state.checkbox
+      );
       window.location.href = "/landingpage";
     } else {
       alert("los datos son incorrectos");
@@ -34,15 +43,15 @@ class Login extends Component {
       if (this.state.password !== "123456") {
         alert("la contraseña es incorrecta");
       }
-        if (this.state.checkbox !== true) {
-          alert("debe aceptar los terminos y condiciones");
-        }
+      if (this.state.checkbox !== true) {
+        alert("debe aceptar los terminos y condiciones");
+      }
     }
   }
-  
+
   render() {
     return (
-      <div className="container">
+      <div className="contai">
         <div className="row">
           <div className="col-md-6">
             <h1 className="login">Login</h1>
@@ -71,14 +80,28 @@ class Login extends Component {
                   required
                 />
                 <div className="form-check">
-                    <label htmlFor="checkbox">checkbox</label>
-                    <input type="checkbox" className="form-check-input" id="checkbox" name="checkbox" value={this.state.checkbox} onChange={this.handleChange} />
+                  <label htmlFor="checkbox">checkbox</label>
+                  <input
+                    type="checkbox"
+                    className="form-check-input"
+                    id="checkbox"
+                    name="checkbox"
+                    value={this.state.checkbox}
+                    onChange={this.handleChange}
+                  />
                 </div>
               </div>
               <button type="submit" className="buttonHome">
                 Login
               </button>
             </form>
+            <footer>
+              <p className="footer">© 2022 - Todos los derechos reservados</p>
+              <a href="https://github.com/farobledo" className="git">
+                <i className="fa fa-github" aria-hidden="true"></i>GitHub
+                Proyecto Fabian Robledo Developer{" "}
+              </a>
+            </footer>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 .fetch{
   margin-left: 20px;
   color: #f8f8f8;
-  box-shadow: 0px 0px 5px 5px #f8f8f8;
-  -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+  box-shadow: 0px 0px 5px 5px #00ffbb;
+  -webkit-box-shadow: 0px 0px 5px 5px #00ffbb;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   transition: all 0.5s ease-in-out;
@@ -17,20 +17,21 @@
   .fetch:hover{
     border-width: 1px;
     color: #ffffff;
-  box-shadow: 0px 0px 15px 15px #f8f8f8;
-  -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+  box-shadow: 0px 0px 15px 15px #00ffbb;
+  -webkit-box-shadow: 0px 0px 15px 15px #00ffbb;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   transition: all 0.5s ease-in-out;
   }
 
 .input{
+  background-color: rgba(0, 251, 226, 0.34);
   margin-left: 20px;
     border-radius: 8px;
     border-width: 1px;
-    color: #000000;
-  box-shadow: 0px 0px 5px 5px #f8f8f8;
-  -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+    color: #ffffff;
+  box-shadow: 0px 0px 5px 5px #00ffbb;
+  -webkit-box-shadow: 0px 0px 5px 5px #00ffbb;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   transition: all 0.5s ease-in-out;

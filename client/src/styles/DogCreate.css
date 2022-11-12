@@ -1,4 +1,4 @@
-.divCreate{
+.divCreate {
     background-image: url('../img/siberian_husky.webp');
     background-size: cover;
     width: 100%;
@@ -7,11 +7,11 @@
     color: rgb(0, 0, 0);
 }
 
-.buttonHome{
-    background-color: #f8f8f8;
+.buttonHome {
+    background-color: #ffffff;
     color: #000000;
-    box-shadow: 0px 0px 15px 15px #f8f8f8;
-    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    box-shadow: 0px 0px 15px 15px #00f4bb;
+    -webkit-box-shadow: 0px 0px 15px 15px #00f4bb;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -25,7 +25,8 @@
     border-radius: 8px;
     cursor: pointer;
 }
-.buttonHome:hover{
+
+.buttonHome:hover {
     background-color: #f8f8f8;
     color: #000000;
     box-shadow: 0px 0px 15px 15px #f8f8f8;
@@ -35,22 +36,22 @@
     transition: all 0.5s ease-in-out;
 }
 
-.title2{
-    color: #ffffff;
-    margin-left: 280px;
-    
+.title2 {
+    color: #1fff02;
+    margin-left: 40%;
+    margin-top: 5%;
 }
 
-.order{
+.order {
     margin-left: 550px;
-  
+
     color: #00f3cb;
     font-size: medium;
     margin: 10px;
     margin-left: 550px;
 }
 
-input{
+input {
     box-shadow: 0px 0px 5px 5px #000000;
     -webkit-box-shadow: 0px 0px 5px 5px #000000;
     transform: rotate(360deg);
@@ -59,20 +60,22 @@ input{
     background-blend-mode: multiply;
     border-radius: 4px;
     border-color: transparent;
-    margin: 10px;
+    margin: 15px;
     padding: 2px;
-    
+
 }
 
 
-.allTemps{
+.allTemps {
     display: inline-block;
 }
-.allTemps li{
+
+.allTemps li {
     justify-content: center;
     display: inline;
 }
-.temp1{
+
+.temp1 {
     font-size: medium;
     background-color: #ffffff;
     color: #000000;
@@ -83,19 +86,19 @@ input{
     transition: all 0.5s ease-in-out;
     margin: 10px;
 }
-.x{
+
+.x {
     background-color: #f40a0a;
     border: transparent;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.tem{
+.tem {
     cursor: pointer;
     padding: 7px 10px;
     height: 42px;
     font-size: 1em;
-  
     background-color: #f8f8f8;
     color: #000000;
     box-shadow: 0px 0px 5px 5px #000000;
@@ -103,23 +106,23 @@ input{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
-    border:2px solid rgb(255, 254, 254);
+    border: 2px solid rgb(255, 254, 254);
     border-radius: 8px;
     transition: all 0.25s ease;
     margin: 10px;
-    margin-left: 370px;
-}
-select:hover{
-    
-   color: rgb(0, 0, 0);
-   
+    margin-left: 47%;
 }
 
-.salir{
-    background-color: #ffffff;
+select:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.salir {
+    background-color: #00f4bb58;
     color: #000000;
-    box-shadow: 0px 0px 5px 5px #000000;
-    -webkit-box-shadow: 0px 0px 5px 5px #000000;
+    box-shadow: 0px 0px 5px 5px #00f4bb;
+    -webkit-box-shadow: 0px 0px 5px 5px #00f4bb;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -131,25 +134,26 @@ select:hover{
     padding-right: 30px;
     margin: 10px;
     margin-left: 100px;
-    
     cursor: pointer;
     transition: all 0.25s ease;
 }
-.salir:hover{
-    background-color: #f8f8f8;
+
+.salir:hover {
+    background-color: #00f4bb;
     color: #000000;
-    box-shadow: 0px 0px 15px 15px #f8f8f8;
-    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    box-shadow: 0px 0px 15px 15px #00f4bb;
+    -webkit-box-shadow: 0px 0px 15px 15px #00f4bb;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
-.salir1{
-    background-color: #ffffff;
+
+.salir1 {
+    background-color: #00f4bb58;
     color: #000000;
-    box-shadow: 0px 0px 5px 5px #000000;
-    -webkit-box-shadow: 0px 0px 5px 5px #000000;
+    box-shadow: 0px 0px 5px 5px #00f4bb;
+    -webkit-box-shadow: 0px 0px 5px 5px #00f4bb;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -160,44 +164,61 @@ select:hover{
     padding-left: 30px;
     padding-right: 30px;
     margin: 10px;
-    margin-left: 370px;
+    margin-left: 47%;
     cursor: pointer;
     transition: all 0.25s ease;
 }
-.salir1:hover{
-    background-color: #f8f8f8;
+
+.salir1:hover {
+    background-color: #00f4bb;
     color: #000000;
-    box-shadow: 0px 0px 15px 15px #f8f8f8;
-    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    box-shadow: 0px 0px 15px 15px #00f4bb;
+    -webkit-box-shadow: 0px 0px 15px 15px #00f4bb;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
 
-
-
-.error{
+.error {
     color: rgb(240, 0, 0);
     font-size: small;
     margin-top: 0;
-}
-.nombre{
-    margin-left: 280px;
-}
-.alt{
-    margin-left: 260px; 
-}
-.peso{
-    margin-left: 270px;
-}
-.maximo{
-    margin-left: 265px;
-}
-.vida{
-    margin-left: 250px; 
-}
-.imagen{
-    margin-left: 290px;
+    margin-left: 40%;
 }
 
+.nombre {
+    margin-left: 40%;
+    color: #8cff00;
+   font-size: 20px;
+}
+
+.alt {
+    margin-left: 39%;
+    color: #8cff00;
+    font-size: 20px;
+}
+
+.peso {
+    margin-left: 40%;
+    color: #8cff00;
+    font-size: 20px;
+}
+
+.maximo {
+    margin-left: 40%;
+    color: #8cff00;
+    font-size: 20px;
+}
+
+.vida {
+    margin-left: 39%;
+    color: #8cff00;
+    font-size: 20px;
+}
+
+.imagen {
+    margin-left: 42%;
+    color: #8cff00;
+    font-size: 20px;
+}

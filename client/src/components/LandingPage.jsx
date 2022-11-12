@@ -6,9 +6,9 @@ import {GiDogHouse} from 'react-icons/gi'
 export default function LandingPage(){
     return(
         <div className='divLP'>
-          <h1 className='title'>Welcome to the Dog House</h1>
+          <h1 className='title'>Bienvenido a la Api Dogs</h1>
             <Link to='/home'>
-                <button className='button'>Dog 🐶 <span><GiDogHouse/></span></button>
+                <button className='button'>Entrar 🐶 <span><GiDogHouse/></span></button>
                 
               
                 

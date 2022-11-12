@@ -1,38 +1,35 @@
    .button {
      cursor: pointer;
-     background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        border: none;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        box-shadow: 0px 0px 15px 15px #f5f4f39c;
-        -webkit-box-shadow: 0px 0px 15px 15px #fffdfc96;
+     background-color: #02fcb984;
+     color: rgb(0, 0, 0);
+     border: none;
+     padding: 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     box-shadow: 0px 0px 15px 15px #02fcb984;
+     -webkit-box-shadow: 0px 0px 15px 15px #02fcb984;
      border-radius: 15px;
-
      color: #000000;
      font-size: 23px;
      padding: 9px 23px 9px 23px;
      text-decoration: none;
      position: relative;
-     margin-top: auto;
-     margin-left: 650px;
+     margin-top: 2%;
+     margin-left: 40%;
 
    }
 
-   .button:hover  {
-    background-color: #f8f8f8;
-    color: #000000;
-    box-shadow: 0px 0px 15px 15px #f8f8f8;
-    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
+   .button:hover {
+     background-color: #02fcb9bc;
+     color: #000000;
+     box-shadow: 0px 0px 15px 15px #02fcb9b9;
+     -webkit-box-shadow: 0px 0px 15px 15px #02fcb9b5;
     transition: all 0.5s ease-in-out;
    }
 
@@ -68,10 +65,10 @@
      color: #000000;
      border-color: black;
      float: left;
-     margin-top: 200px;
-     margin-left: 870px;
-     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #fbfbfb,
-       0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+     margin-top: 20%;
+     margin-left: 61%;
+     text-shadow: 0 0 10px #02fcb984, 0 0 20px #02fcb984, 0 0 30px #02fcb984, 0 0 40px #02fcb984,
+       0 0 50px #02fcb984, 0 0 60px #02fcb984, 0 0 70px #02fcb984;
 
 
    }
