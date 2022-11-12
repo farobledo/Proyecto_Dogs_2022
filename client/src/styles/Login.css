@@ -12,13 +12,10 @@
 }
 
 
-
 .buttonHome {
     background-color: rgb(69, 250, 187);
     box-shadow: 0px 0px 15px 15px rgba(69, 250, 187, 0.557);
-    ;
     -webkit-box-shadow: 0px 0px 15px 15px rgba(69, 250, 187, 0.576);
-    ;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -74,16 +71,16 @@
 
 .footer {
     margin-left: 40%;
-     margin-top: 100%;
+    margin-top: 100%;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
     color: #00fe44;
-   
+
 }
 
 .git {
     margin-left: 100px;
-  margin-top: 10%;
-  color: #0800fc;
+    margin-top: 10%;
+    color: #0800fc;
 }

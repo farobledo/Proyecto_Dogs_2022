@@ -23,8 +23,11 @@ const myDog = useSelector((state) => state.detail);
   // vamos a crear un metodo para borrar el perro de la lista creada
    const deleteDog = () => {
     dispatch(delete_dog(id));
-    props.history.push("/");
+    alert("Seguro que quieres borrar a este perro?");
+    window.location.href = "/home";
   };
+
+
 
  
 return (

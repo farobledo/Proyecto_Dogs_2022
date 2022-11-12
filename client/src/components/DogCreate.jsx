@@ -69,6 +69,10 @@ function validate(input) {
     else if (input.life_span <= 0) {
         errors.life_span = 'No quieres que tu perro viva???? 😮';
     }
+    else if (!input.image) {
+        errors.image = 'Se requiere imagen!!';
+    }
+   
 
     return errors;
 }
@@ -130,7 +134,7 @@ export default function DogCreate() {
     function handleSubmit(e) {
         e.preventDefault();
         // console.log(errors);
-        if (!Object.getOwnPropertyNames(errors).length && input.name && input.heightMin && input.heightMax && input.weightMin && input.weightMax && input.life_span && input.temperaments.length) {
+        if (!Object.getOwnPropertyNames(errors).length && input.name && input.heightMin && input.heightMax && input.weightMin && input.weightMax && input.life_span && input.temperaments.length && input.image) {
             dispatch(postDog(input));
             alert('Dog creado con Exito 👏');
             setInput({
