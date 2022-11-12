@@ -1,0 +1,203 @@
+.divCreate{
+    background-image: url('../img/siberian_husky.webp');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+.buttonHome{
+    background-color: #f8f8f8;
+    color: #000000;
+    box-shadow: 0px 0px 15px 15px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    color: rgb(251, 251, 251);
+    float: left;
+    font-size: medium;
+    margin-left: 40px;
+    margin-top: 36px;
+    height: 43px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.buttonHome:hover{
+    background-color: #f8f8f8;
+    color: #000000;
+    box-shadow: 0px 0px 15px 15px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.title2{
+    color: #ffffff;
+    margin-left: 280px;
+    
+}
+
+.order{
+    margin-left: 550px;
+  
+    color: #00f3cb;
+    font-size: medium;
+    margin: 10px;
+    margin-left: 550px;
+}
+
+input{
+    box-shadow: 0px 0px 5px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px 5px #000000;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    background-blend-mode: multiply;
+    border-radius: 4px;
+    border-color: transparent;
+    margin: 10px;
+    padding: 2px;
+    
+}
+
+
+.allTemps{
+    display: inline-block;
+}
+.allTemps li{
+    justify-content: center;
+    display: inline;
+}
+.temp1{
+    font-size: medium;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 5px 5px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    margin: 10px;
+}
+.x{
+    background-color: #f40a0a;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tem{
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    font-size: 1em;
+  
+    background-color: #f8f8f8;
+    color: #000000;
+    box-shadow: 0px 0px 5px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px 5px #010101;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    border:2px solid rgb(255, 254, 254);
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    margin: 10px;
+    margin-left: 370px;
+}
+select:hover{
+    
+   color: rgb(0, 0, 0);
+   
+}
+
+.salir{
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 5px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px 5px #000000;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    border: transparent;
+    border-radius: 8px;
+    font-size: medium;
+    height: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    margin-left: 100px;
+    
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.salir:hover{
+    background-color: #f8f8f8;
+    color: #000000;
+    box-shadow: 0px 0px 15px 15px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    transform:scale(1.1);
+}
+.salir1{
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 5px 5px #000000;
+    -webkit-box-shadow: 0px 0px 5px 5px #000000;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    border: transparent;
+    border-radius: 8px;
+    font-size: medium;
+    height: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    margin-left: 370px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.salir1:hover{
+    background-color: #f8f8f8;
+    color: #000000;
+    box-shadow: 0px 0px 15px 15px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    transform:scale(1.1);
+}
+
+
+
+.error{
+    color: rgb(240, 0, 0);
+    font-size: small;
+    margin-top: 0;
+}
+.nombre{
+    margin-left: 280px;
+}
+.alt{
+    margin-left: 260px; 
+}
+.peso{
+    margin-left: 270px;
+}
+.maximo{
+    margin-left: 265px;
+}
+.vida{
+    margin-left: 250px; 
+}
+.imagen{
+    margin-left: 290px;
+}
+

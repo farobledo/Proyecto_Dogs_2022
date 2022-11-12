@@ -1,0 +1,77 @@
+   .button {
+     cursor: pointer;
+     background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        box-shadow: 0px 0px 15px 15px #f5f4f39c;
+        -webkit-box-shadow: 0px 0px 15px 15px #fffdfc96;
+     border-radius: 15px;
+
+     color: #000000;
+     font-size: 23px;
+     padding: 9px 23px 9px 23px;
+     text-decoration: none;
+     position: relative;
+     margin-top: auto;
+     margin-left: 650px;
+
+   }
+
+   .button:hover  {
+    background-color: #f8f8f8;
+    color: #000000;
+    box-shadow: 0px 0px 15px 15px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+   }
+
+   .button span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+   }
+
+   .button:hover span {
+     padding-right: 25px;
+   }
+
+   .button:hover span:after {
+     opacity: 1;
+     right: 0;
+   }
+
+   /* cambiar el color del html de la pagina de inicio */
+
+   body {
+     background-image: url('../img/dieta-perros-grandes.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+
+   }
+
+   .title {
+     color: #000000;
+     border-color: black;
+     float: left;
+     margin-top: 200px;
+     margin-left: 870px;
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #fbfbfb,
+       0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+
+
+   }

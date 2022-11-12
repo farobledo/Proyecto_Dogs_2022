@@ -1,0 +1,37 @@
+.fetch{
+  margin-left: 20px;
+  color: #f8f8f8;
+  box-shadow: 0px 0px 5px 5px #f8f8f8;
+  -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+   height: 40px;
+    background-color: transparent;
+    border-radius: 8px;
+    width: 100px;
+    font-size:medium;
+    border-width: 2px;
+    cursor: pointer;
+  }
+  .fetch:hover{
+    border-width: 1px;
+    color: #ffffff;
+  box-shadow: 0px 0px 15px 15px #f8f8f8;
+  -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+  }
+
+.input{
+  margin-left: 20px;
+    border-radius: 8px;
+    border-width: 1px;
+    color: #000000;
+  box-shadow: 0px 0px 5px 5px #f8f8f8;
+  -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,57 @@
+.buttonHome{
+    background-color: rgb(69, 250, 187);
+     box-shadow: 0px 0px 15px 15px rgb(69, 250, 187);;
+    -webkit-box-shadow: 0px 0px 15px 15px rgb(69, 250, 187);;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: medium;
+    margin-left: 190%;
+    margin-top: 10%;
+    height: 43px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.buttonHome:hover{
+    background-color: #f8f8f8;
+    color: #000000;
+    box-shadow: 0px 0px 15px 15px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 15px 15px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.form-control{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    background-blend-mode: multiply;
+    border-radius: 4px;
+    border-color: transparent;
+    margin: 10px;
+    padding: 2px;
+    margin-left: 160%;
+}
+
+
+.login{
+    color: #000000;
+    margin-left: 180%;
+    margin-top: 100%;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+ 
+}
+
+.form-check{
+   margin-left: 160%;
+    margin-top: 10%;
+}
+
+
+
