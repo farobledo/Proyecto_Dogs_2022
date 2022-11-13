@@ -97,10 +97,7 @@ class Login extends Component {
             </form>
             <footer>
               <p className="footer">© 2022 - Todos los derechos reservados</p>
-              <a href="https://github.com/farobledo" className="git">
-                <i className="fa fa-github" aria-hidden="true"></i>GitHub
-                Proyecto Fabian Robledo Developer{" "}
-              </a>
+            
             </footer>
           </div>
         </div>
